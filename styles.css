@@ -85,7 +85,51 @@ body {
   font-weight: bolder;
 }
 
+/*Card section styles*/
+.secondsection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 125px;
+}
 
+.secondtitle{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
 
+.cardrows{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 
-  
+.card {
+  display: flex;
+  flex-shrink: 0;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+  width: 170px;
+  height: 170px;
+}
+
+.bigcard {
+  width: 175px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.cardtext{
+  color: #676768;
+  font-size: 18px;
+  text-align: center;
+}
+
