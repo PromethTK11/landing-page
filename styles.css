@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto";
+  margin: 0px;
 }
 
 /* Header styles*/
@@ -131,5 +132,35 @@ body {
   color: #676768;
   font-size: 18px;
   text-align: center;
+}
+
+/*Quote styles*/
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quotecontainer{
+  width: 800px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 135px;
+  margin-bottom: 100px;
+}
+.quotetext{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quotename{
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 26px;
 }
 
