@@ -188,3 +188,32 @@ body {
   align-items: center;
 }
 
+.callinfo{
+  margin-left:125px;
+}
+
+.calltitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.calltext {
+  color: #fff;
+  font-size: 18px;
+}
+
+.callbutton{
+  width: 120px;
+  height: 35px;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 10px;
+  border-color: #fff;
+  border-width: 3px;
+  border-style: solid;
+  font-weight: bolder;
+  margin-right: 125px;
+}
+
+
