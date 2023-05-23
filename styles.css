@@ -216,4 +216,15 @@ body {
   margin-right: 125px;
 }
 
+/*Final Section*/
+
+.endbanner {
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  padding: 36px 0px;
+  align-items: center;
+  justify-content: center;
+ }
+
 
